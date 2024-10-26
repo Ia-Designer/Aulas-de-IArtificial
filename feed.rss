@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-        <title>Curso de Inteligência Artificial - Plinio Web EAD</title>
-        <link>https://seusite.com/</link>
-        <description>Curso online completo de Inteligência Artificial com 40 vídeo aulas.</description>
+        <title>Plinio Web EAD</title>
+        <link>https://plinioweb.com</link>
+        <description>Atualizações e notícias do Plinio Web EAD.</description>
         <language>pt-br</language>
+        <pubDate><?php echo date(DATE_RSS); ?></pubDate>
+        
+        <item>
+            <title>Aula 1 - Introdução à Inteligência Artificial</title>
+            <link>https://plinioweb.com/aulas/aula1</link>
+            <description>Inicie sua jornada no mundo da Inteligência Artificial com esta aula introdutória.</description>
+            <pubDate>Mon, 01 Jan 2024 10:00:00 -0000</pubDate>
+        </item>
 
         <item>
-            <title>Aula 1 - Introdução à IA</title>
-            <link>https://www.youtube.com/watch?v=1</link>
-            <description>Primeira aula do curso abordando conceitos básicos de Inteligência Artificial.</description>
+            <title>Aula 2 - História da IA</title>
+            <link>https://plinioweb.com/aulas/aula2</link>
+            <description>Explore a evolução da Inteligência Artificial desde suas origens até os dias atuais.</description>
+            <pubDate>Tue, 02 Jan 2024 10:00:00 -0000</pubDate>
         </item>
+
         <item>
-            <title>Aula 2 - Redes Neurais</title>
-            <link>https://www.youtube.com/watch?v=2</link>
-            <description>Introdução às Redes Neurais no contexto da Inteligência Artificial.</description>
+            <title>Aula 3 - Tipos de Inteligência Artificial</title>
+            <link>https://plinioweb.com/aulas/aula3</link>
+            <description>Aprenda sobre os diferentes tipos de Inteligência Artificial e suas aplicações.</description>
+            <pubDate>Wed, 03 Jan 2024 10:00:00 -0000</pubDate>
         </item>
-        <!-- Continue adicionando itens para as demais aulas -->
+
         <item>
-            <title>Aula 40 - IA: O Futuro do Trabalho</title>
-            <link>https://www.youtube.com/watch?v=40</link>
-            <description>Exploração das perspectivas futuras da IA no mercado de trabalho.</description>
+            <title>Aviso - Nova funcionalidade no dashboard</title>
+            <link>https://plinioweb.com/avisos</link>
+            <description>Adicionamos uma nova funcionalidade no dashboard para facilitar o acesso ao conteúdo dos alunos.</description>
+            <pubDate>Thu, 04 Jan 2024 10:00:00 -0000</pubDate>
         </item>
+        
+        <!-- Adicione mais itens conforme necessário -->
 
     </channel>
 </rss>
